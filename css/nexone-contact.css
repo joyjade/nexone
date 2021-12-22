@@ -1,12 +1,14 @@
 header.contacthead {
-    text-align: center;
-    color: white;
-    background-image: url("../img/Contact/Contact.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-    background-size: cover;
-    width: 100vw;
-    height: 748px;
-    margin-top: 135px;
-  }
+  background-image: url("../img/Contact/Contact.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-size: cover;
+  width: 100vw;
+  margin-top: 135px;
+}
+
+.section-blocks .gold-bar {
+  margin: 1.5rem 0 2.5rem;
+}
+

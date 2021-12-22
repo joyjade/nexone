@@ -10,40 +10,40 @@ header.careershead {
     height: 728px;
   }
 
-  .Join-Us {
-    margin: 277px 0 0 0;
-    flex-grow: 0;
-    font-family: Times;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-  }
+.Join-Us {
+  margin: 277px 0 0 0;
+  flex-grow: 0;
+  font-family: Times;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
 
-  .gold-bar {
-    margin: 1.5rem 1.5rem 2rem;
-  }
+.gold-bar {
+  margin: 1.5rem 1.5rem 2rem;
+}
 
-  .Careers_JoinUs_Subheader {
-    width: 510px;
-  }
+.Careers_JoinUs_Subheader {
+  width: 510px;
+}
 
-  .careershead .gold-button {
-    margin-top: 1rem;
-  }
+.careershead .gold-button {
+  margin-top: 1rem;
+}
 
-  .payandbenefits.section {
-    text-align: center;
-    background-image: url("/img/Careers/pay_benefits@2x.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
+.payandbenefits.section {
+  text-align: center;
+  background-image: url("/img/Careers/pay_benefits@2x.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
   }
 
 .payandbenefits h1 {
