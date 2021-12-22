@@ -1,0 +1,432 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: url('../fonts/Roboto-Light.ttf');
+}
+
+:root {
+  --gold: #c7b484;
+  --black: #4F4F4F
+}
+
+h1, h2 {
+  font-family: Times;
+  font-weight: 700;
+}
+
+h1, h2 {
+  font-size: 45px;
+}
+
+h4, p, .small-print {
+  font-family: Roboto;
+}
+
+h4 {
+  font-size: 25px;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--black);
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  font-size: 1rem;
+}
+
+.subheader {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.small-print p {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+}
+
+.gold-bar {
+  display: block;
+  width: 73px;
+  height: 4px;
+  background-color: var(--gold);
+}
+
+a.gold-button {
+  background-color: var(--gold);
+  border-radius: 0;
+  padding: 0.5rem 1.25rem;
+}
+
+/* NAV */
+.navbar-brand img {
+  max-width: 200px;
+}
+
+
+.Rectangle-47 {
+  width: 100vw;
+  height: 135px;
+  flex-grow: 0;
+  padding: 45px 50px 39.3px 70px;
+  background-color: #376384;
+}
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/Homepage/Homepage_Hero_Img.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-size: cover;
+  width: 100vw;
+  height: 885px;
+}
+
+.NexOne_Logo {
+  width: 200.3px;
+  height: 42px;
+  flex-grow: 0;
+  margin: 0 306.7px 0 0;
+  object-fit: contain;
+}
+
+  .Homepage_Hero_Img {
+  height: 885px; 
+  margin: 0 0 2px;
+  padding: 45px 50px 45px 70px;
+  object-fit: contain;
+}
+
+.home_banner h1 {
+  color: white;
+  margin-bottom: 3rem;
+}
+
+
+
+.Homepage_Details_Text {
+  margin: 111.9px 0px 0px 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  text-align: center;
+  color: #b3c5d2;
+}
+
+.homepage_whoweare {
+  padding: 10rem 0 12rem;
+  object-fit: contain;
+  background-color: #f9f9f9;  
+}
+
+  .Homepage_WhoWeAre_Subheader {
+    width: 550px;
+    height: 85px;
+    margin: 30px 0 0;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .Who-We-Are {
+    
+    flex-grow: 0;
+    margin: 0 0 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+.homepage_whoweare .gold-bar {
+  margin: 0.5rem 0;
+}
+
+.services .gold-bar {
+  margin-bottom: 60px;
+  margin-top: 21px;
+}
+
+.section {
+  padding: 8rem 0;
+}
+.section.services {
+  margin-left: 7rem;
+}
+
+.section.services h2 {
+  color: var(--black);
+}
+
+.services .row {
+  height: 500px;
+}
+
+.services a.subheader {
+  font-size: 1.2rem;
+}
+
+.services .row .col-sm-4 {
+  margin-right: 1rem;
+  max-width: 31%;
+  display: flex;
+  align-items: end;
+  padding: 1.2rem;
+}
+
+.Homepage_infotech_Img {
+  background-image: url("/img/Homepage/Homepage_infotech_Img.png");
+}
+
+.Homepage_engineering_img {
+  background-image: url("/img/Homepage/Homepage_engineering_img.png");
+}
+
+.Homepage_logistics_img {
+  background-image: url("/img/Homepage/Homepage_LogTechSupport_Img.png");
+}
+
+
+  .Contact-Us-Text a {
+    text-decoration: none;
+    color: #4f4f4f;
+  }
+
+  .Services a{
+    text-decoration: none;
+    color: #4f4f4f;
+  }
+
+  .VIEW-SERVICES a{
+    text-decoration: none;
+    color: #4f4f4f;
+  }
+
+  .VIEW-SERVICES {
+    margin-left: 72px;
+    margin-top: 35px;
+    margin-bottom: 136px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .Arrow-1 {
+    width: 27px;
+    height: 1px;
+    flex-grow: 0;
+    margin: 10.5px 0 9.5px 8px;
+    background-color: #4f4f4f;
+  }
+
+  .Homepage_ClientsPartners_Img {
+    background-image: url("../img/Homepage/Homepage_ClientsPartners_Export.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 681px;
+    object-fit: contain;
+  }
+
+  .Contact-Us {
+    margin-top: 199px;
+    margin-left: 80px;
+    margin-bottom: 16px;
+    font-family: Times;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .Homepage_ContactUs_Background {
+    width: 100vw;
+    height: 684px;
+    background-color: #ffffff;
+  }
+
+  .Line-16 {
+    width: 73px;
+    height: 4px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    background-color: #c7b484;
+  }
+
+  .Homepage_ContactUs_MapImage {
+    width: 831px;
+    height: 434px;
+    margin: 123px 0 0 0;
+    /* object-fit: contain; */
+  }
+
+  .Contact-Us-bullets {
+    margin-left: 80px;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .Contact-Us-Text {
+    margin-left: 40px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .Address-margin{
+    margin-bottom: 25px;
+  }
+
+/* FOOTER */
+
+footer {
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 1.75rem;
+}
+
+.nexone_logo {
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.nexone_logo img {
+  max-width: 180px;
+}
+
+.Footer_Background {
+  background-repeat: no-repeat;
+  background-image: url("../img/Footer_Background.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer_links {
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-grow: 1;
+  padding-top: 50px;
+}
+.footer_links > div {
+  padding: 0 1rem;
+}
+.footer_links a {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer_links a:hover {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid white;
+}
+
+.footer_details {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  justify-content: space-evenly;
+}
+
+.footer_details > div {
+  padding: 0 0.75rem;
+}
+
+
+@media screen and (min-width: 801px) {
+  .mobile-only {
+    display: none;
+  }
+
+  footer {
+    height: 330px;  
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hide-for-mobile {
+    display: none;
+  }
+  .footer_links {
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+
+  .footer_links > div {
+    padding: 0.35rem;
+  }
+
+  .footer_details {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_details div.mobile-padding {
+    padding-bottom: 0.5rem;
+  }
+}
+
+

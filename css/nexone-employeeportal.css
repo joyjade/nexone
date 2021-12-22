@@ -1,0 +1,12 @@
+header.employeeportalhead {
+    text-align: center;
+    color: white;
+    background-image: url("../img/Contact/Contact.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+    width: 100vw;
+    height: 748px;
+    margin-top: 135px;
+  }

@@ -1,0 +1,106 @@
+header.contract-vehicle-head {
+    text-align: center;
+    color: white;
+    background-image: url("../img/Contract_Vehicles/ContractVehicles.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+    width: 100vw;
+    height: 747px;
+    margin-top: 135px;
+  }
+
+.Contract-Vehicles {
+    margin: 216px 0 0 114px;
+    width: 377px;
+    font-family: Times;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .Line-14 {
+    width: 73px;
+    height: 4px;
+    flex-grow: 0;
+    background-color: #c7b484;
+    margin: 21px 0 0 114px;
+  }
+
+  .ContractVehicles_Subheader_Text {
+    margin: 45px 0 0 114px;
+    width: 527px;
+    height: 86px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .PRIME-CONTRACTOR {
+    margin: 216px 0 10px 0;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #c7b484;
+  }
+
+  .Prime-Contractor-List {
+    margin: 0 0 0 0;    
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #4f4f4f;
+    text-decoration: none;
+  }
+
+  .SUB-CONTRACTOR {
+    margin: 35px 0 10px 0;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #c7b484;
+  }
+
+  .Sub-Contractor-List {
+    margin: 0 0 0 0;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #4f4f4f;
+  }

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/nexone.css" rel="stylesheet" type="text/css" />
+  <link href="css/nexone-contact.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+
+  <title>Nex-One Inc</title>
+
+  <style>
+    .fixed-top.scrolled {
+      background-color: #376384 !important;
+      transition: background-color 200ms linear;
+    }
+  </style>
+
+</head>
+
+<body id="top">
+  <nav class="navbar navbar-expand-lg  navbar-dark fixed-top Rectangle-47" style="padding: 45px 50px 39.3px 70px;"
+    id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand js-scroll-trigger" href="Home.html"><img class="" src="img/NexOne_Logo.png"></a>
+      <button class="navbar-toggler navber-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger ABOUT" href="About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger SERVICES" href="Services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger CONTRACT-VEHICLES"
+              href="Contract_vehicle.html">Contract Vehicle</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger CAREERS" href="Careers.html">Careers</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger EMPLOYEE-PORTAL"
+              href="Employee-portal.html">Employee Portal</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger CONTACT active" href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="contacthead">
+    <div class="container-fluid ">
+    <!-- Contact Us  -->
+      <div class="row ">
+      <div class="col-4 ">
+        <div class="Contact-Us  ">
+          Contact Us
+        </div>
+        <div class="Line-16"></div>
+        <div class="row">
+          
+          
+          <div class="col-sm-1 Contact-Us-bullets">
+            <span class="iconify" data-icon="bi-geo-alt-fill" data-inline="false"></span>
+          </div>
+          <div class="col  ">
+            <div class="Contact-Us-Text text-nowrap  ">1725 E. 1450 E. Suite 330</div>
+            <div class="Contact-Us-Text text-nowrap Address-margin" >Clearfield, Utah 84015</div>
+          </div>
+        </div><!-- end row  -->
+        <div class="row  ">
+          <div class="col-sm-1 Contact-Us-bullets  ">T.</div>
+          <div class="col Contact-Us-Text text-nowrap  ">(801) 926-1060</div>
+        </div>
+        <div class="row  ">
+          <div class="col-sm-1 Contact-Us-bullets">F.</div>
+          <div class="col   Contact-Us-Text text-nowrap">(801) 926-1050</div>
+        </div>
+        <div class="row  ">
+          <div class="col-sm-1 Contact-Us-bullets  ">E.</div>
+          <div class="col Contact-Us-Text text-nowrap  ">
+            <a href="mailto:contact@nex-one.com" target="_blank">contact@nex-one.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-8 text-center Homepage_ContactUs_MapImage">
+        <img class="" src="img/Homepage/Homepage_ContactUs_MapImage.png">
+      </div>
+    
+  </div><!-- End contact us section -->
+    </div><!-- end container -->
+  </header>
+  <!-- footer -->
+  <footer class="container-fluid Footer_Background">
+    <div class="row ">
+      <div class="col-12 text-center Footer_NexOneLogo">
+        <img src="img/NexOne_Logo.png">
+      </div>
+    </div><!-- end Nexone logo row -->
+    <div class="row Footer_Links ">
+      <div class="col-2 "></div>
+      <div class="col-1 ABOUT text-uppercase "><a class="" href="About.html">about</a></div>
+      <div class="col-1 SERVICES text-uppercase"><a href="Services.html">services</a></div>
+      <div class="col-1 CAREERS text-uppercase"><a href="Careers.html">careers</a></div>
+      <div class="col-2 CONTRACT-VEHICLES text-nowrap text-uppercase"><a href="Contract_vehicle.html">contract
+          vehicles</a></div>
+      <div class="col-1 CONTACT text-uppercase"><a href="Contact.html">contact</a></div>
+      <div class="col-2 EMPLOYEE-PORTAL text-uppercase text-nowrap"><a href="Employee-portal.html">employee portal</a>
+      </div>
+      <div class="col-2 "></div>
+    </div><!-- end row links -->
+    <div class="row text-center Footer_Details">
+      <div class="col-xl-1 text-nowrap ">© 2020 NexOne, Inc</div>
+      <div class="col-xl-4 text-nowrap ">1725 E. 1450 S. Suite 330 Clearfield, UT 84015 | (801) 926-1060 |
+        contact@nex-one.com</div>
+      <div class="col-xl-2 text-nowrap ">Small Business: SBA certified SDB</div>
+      <div class="col-xl-1 text-nowrap ">CMMI Certified</div>
+      <div class="col-xl-4 text-nowrap ">ISO 9001:2008 (Awarded February 17, 2013)</div>
+    </div><!-- end row details -->
+  </footer><!-- end footer -->
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+
+    $(function () {
+      $(document).ready(function () {
+        var $nav = $(".fixed-top");
+        if ($(this).scrollTop() > 50) {
+          $nav.toggleClass('scrolled');
+        }
+      });
+    });
+  </script>
+
+
+  <script src="js/jquery.slim.min.js"></script><!-- jquery 3.0.0 -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

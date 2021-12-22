@@ -1,0 +1,227 @@
+header.serviceshead {
+    text-align: center;
+    color: white;
+    background-image: url("../img/Services/ITicon_options.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 814px;
+  }
+
+  .Our-Services {
+    margin: 190px 0 0 0;
+    font-family: Times;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .Line-14 {
+    width: 73px;
+    height: 4px;
+    margin: 21px 0 0 0;
+    background-color: #c7b484;
+  }
+
+  .Services_IT {
+    color: white;
+    background-image: url("../img/Services/Services_IT.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 831px;
+  }
+
+  .Services_Engineering {
+    color: white;
+    background-image: url("../img/Services/Services_engineering.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 831px;
+    object-fit: contain;
+  }
+
+  .Services_Logistics {
+    color: white;
+    background-image: url("../img/Services/Services_Logistics.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 832px;
+    object-fit: contain;
+  }
+
+  .IT-SERVICES {
+    
+    flex-grow: 0;
+    margin: 304px 0 25px 112px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #c7b484;
+  }
+
+  .IT-Services-List {
+    margin: 0 0 0 105px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .Information-Technology {
+    margin: 349px 0 0 0;
+    font-family: Times;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .Services_InfoTech_Description {
+    
+    margin: 35px 0 0 0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .ENGINEERING-SERVICES {
+    
+    flex-grow: 0;
+    margin: 216px 0px 0px 112px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #c7b484;
+  }
+
+  .ENGINEERING-SERVICES-List {
+    margin: 25px 0 0 90px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .Engineer-Services-Title {
+    margin: 328px 0 0 0;
+    font-family: Times;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .Engineering-Services-Description {
+    margin: 35px 0 0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .LT-Support {
+    margin: 311px 0 0 112px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #c7b484;
+  }
+
+  .LT-Support-List {
+    margin: 25px 0 0 90px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .Logistics-Technical-Support {
+    margin: 337px 0 0 0;
+    font-family: Times;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4f4f;
+  }
+
+  .LTSupport_Description {
+    margin: 35px 0 0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #4f4f4f;
+  }
