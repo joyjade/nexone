@@ -2,26 +2,16 @@
   /* About NexOne */
   header.aboutNexOne {
     background-image: url('../img/About/About_ImageExport_1.png');
-    background-attachment: scroll;
     background-position: center top;
-    background-color: #376384;
-    width: 100vw;
-    height: 635px;
-    margin-top: 135px;
-    object-fit: contain;
+    margin-top: 85px;
   }
 
-  .About-NexOne {
-    margin: 201px 0 21px 0;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+  .aboutNexOne, .aboutNexOne h1 {
     text-align: center;
-    color: #4f4f4f;
+  } 
+
+  .aboutNexOne .gold-bar {
+    margin: 1rem 0 2rem;
   }
 
   .Line-16 {
@@ -30,20 +20,6 @@
     background-color: #c7b484;
   }
 
-  .About_Subheader_Text {
-    width: 578px;
-    height: 116px;
-    margin-top: 30px;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.27;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #4f4f4f;
-  }
   /* About Awards */
 
   .aboutAwards {
@@ -130,7 +106,9 @@
 @media screen and (max-width: 800px) {
   header.aboutNexOne {
     padding: 0 1rem;
+    margin-top: 75px;
   }
+
   .About_ClientsPartners_Img  {
     background-image: none;
   }

@@ -26,6 +26,7 @@
 :root {
   --gold: #c7b484;
   --black: #4F4F4F;
+  --nexblue: #376384;
   --block-width: 600px;
 }
 
@@ -112,6 +113,7 @@ a.gold-button:hover {
 }
 
 /* LAYOUT */
+
 .section-blocks {
   display: flex;
   height: 80vh;
@@ -123,6 +125,14 @@ a.gold-button:hover {
   flex-flow: column;
   justify-content: center;
   padding-left: 6rem;
+}
+
+.section-blocks.centered {
+  justify-content: center;
+}
+
+.centered .block {
+  padding: unset;
 }
 
 .block > * {
@@ -141,18 +151,24 @@ a.gold-button:hover {
   background-repeat: no-repeat;
 }
 
+
 /* NAV */
 .navbar-brand img {
-  max-width: 200px;
+  max-width: 150px;
 }
 
+.navbar-brand {
+  padding: 0.75rem 0;
+}
 
-.Rectangle-47 {
+.navbar {
   width: 100vw;
-  height: 135px;
   flex-grow: 0;
-  padding: 45px 50px 39.3px 70px;
-  background-color: #376384;
+  background: var(--nexblue);
+}
+
+.navbar.clear {
+  background: none;
 }
 
 header.masthead {
@@ -458,6 +474,35 @@ footer {
 
 /* TABLET AND DESKTOP */
 @media screen and (min-width: 801px) {
+  .navbar {
+    height: 85px;
+  }
+
+  .navbar li.nav-item {
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color:white;
+    padding: 0.5rem 0 0.35rem;
+    margin: 0 0.75rem;
+  }
+
+  .navbar-dark .navbar-nav .active>.nav-link, 
+  .navbar-dark .navbar-nav .nav-link.active, 
+  .navbar-dark .navbar-nav .nav-link.show, 
+  .navbar-dark .navbar-nav .show>.nav-link {
+    border-bottom: 2px solid white;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    padding-right: 1rem;
+  }
+
   .mobile-only {
     display: none;
   }
@@ -495,6 +540,53 @@ footer {
 
   .mobile-reverse {
     flex-flow: column-reverse;
+  }
+
+  /* NAV */
+
+  .navbar-collapse {
+    position: fixed;
+    top: 72px;
+    left: 0;
+  }
+
+  .navbar-nav {
+    padding: 1.5rem;
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    background: rgb(255,255,255, 0.95);
+  }
+
+  .navbar-dark .navbar-toggler {
+    border: none;
+    padding: .25rem 1rem;
+  }
+  .navbar-dark .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+    background-image: url("/img/icons/hamburger.svg");
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("/img/icons/x - icon.svg");
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: var(--black);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--gold)''
+  }
+
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: var(--gold);
+  }
+
+  .navbar li.nav-item {
+    font-family: Times;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
   }
   
 
