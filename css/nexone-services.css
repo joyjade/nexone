@@ -1,14 +1,12 @@
 header.serviceshead {
-    text-align: center;
-    color: white;
-    background-image: url("/img/Services/Services_Header@3x.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    height: 814px;
-  }
+  text-align: center;
+  color: white;
+  background-image: url("/img/Services/Services_Header@3x.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 
 .Our-Services {
   margin: 190px 0 0 0;
@@ -209,3 +207,12 @@ h1 {
     text-align: left;
     color: #4f4f4f;
   }
+
+@media screen and (max-width: 800px) {
+  .icons {
+    padding-bottom: 6rem;
+  }
+  .icons h5 {
+    margin-bottom: 2.7rem;
+  }
+}
