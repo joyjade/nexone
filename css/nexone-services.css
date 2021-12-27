@@ -1,7 +1,7 @@
 header.serviceshead {
     text-align: center;
     color: white;
-    background-image: url("../img/Services/ITicon_options.png");
+    background-image: url("/img/Services/Services_Header@3x.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -10,60 +10,45 @@ header.serviceshead {
     height: 814px;
   }
 
-  .Our-Services {
-    margin: 190px 0 0 0;
-    font-family: Times;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-  }
+.Our-Services {
+  margin: 190px 0 0 0;
+}
 
-  .Line-14 {
-    width: 73px;
-    height: 4px;
-    margin: 21px 0 0 0;
-    background-color: #c7b484;
-  }
+.serviceshead .gold-bar {
+  margin-top: 2rem;
+}
 
-  .Services_IT {
-    color: white;
-    background-image: url("../img/Services/Services_IT.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    height: 831px;
-  }
+.serviceshead .icons {
+  justify-content: center;
+  padding-top: 4rem;
+}
 
-  .Services_Engineering {
-    color: white;
-    background-image: url("../img/Services/Services_engineering.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    height: 831px;
-    object-fit: contain;
-  }
+.icons img {
+  width: 150px;
+  margin-bottom: 2rem;
+}
 
-  .Services_Logistics {
-    color: white;
-    background-image: url("../img/Services/Services_Logistics.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    height: 832px;
-    object-fit: contain;
-  }
+h6 {
+  padding-bottom: 1rem;
+}
+
+h1 {
+  padding-bottom: 1rem;
+}
+
+.Services_Engineering {
+  color: white;
+  background-image: url("../img/Services/Services_engineering.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.Services_Engineering h1 {
+  color: white;
+}
 
   .IT-SERVICES {
     
@@ -94,7 +79,6 @@ header.serviceshead {
   }
 
   .Information-Technology {
-    margin: 349px 0 0 0;
     font-family: Times;
     font-size: 45px;
     font-weight: bold;

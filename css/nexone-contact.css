@@ -12,3 +12,15 @@ header.contacthead {
   margin: 1.5rem 0 2.5rem;
 }
 
+@media screen and (max-width: 800px) {
+  .contacthead .section-blocks {
+    padding-bottom: 0;
+  }
+
+  .Homepage_ContactUs_MapImage {
+    margin: 0;
+    padding: 0;
+    padding-top: 4rem;
+  }
+}
+

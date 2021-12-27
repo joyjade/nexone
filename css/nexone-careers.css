@@ -59,7 +59,7 @@ header.careershead {
   max-height: 100px;
 }
 
-.benefits .col-3 {
+.benefits .col-md-3 {
   padding: 4rem 2rem;
 }
 
@@ -81,4 +81,11 @@ header.careershead {
 
 .payandbenefits .small-print a {
   color: #298cd3;
+}
+
+@media screen and (max-width: 800px) {
+  .benefits .col-md-3 {
+    padding: 4rem 5rem;
+    max-width: 500px; 
+  }
 }

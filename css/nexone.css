@@ -25,7 +25,8 @@
 
 :root {
   --gold: #c7b484;
-  --black: #4F4F4F
+  --black: #4F4F4F;
+  --block-width: 600px;
 }
 
 h1, h2 {
@@ -49,6 +50,13 @@ h4 {
   color: var(--black);
 }
 
+h5 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+}
+
 h6 {
   font-size: 15px;
   font-weight: 500;
@@ -62,6 +70,13 @@ p {
   line-height: 1.4;
   letter-spacing: 0.4px;
   font-size: 1rem;
+}
+
+ul {
+  margin-left: -1.25rem;
+  font-family: 'Roboto';
+  font-weight: 300;
+  letter-spacing: 0.2px;
 }
 
 .subheader {
@@ -90,6 +105,12 @@ a.gold-button {
   padding: 0.5rem 1.25rem;
 }
 
+a.gold-button:hover {
+  color: var(--gold);
+  background-color: white;
+  text-decoration: none;
+}
+
 /* LAYOUT */
 .section-blocks {
   display: flex;
@@ -102,6 +123,10 @@ a.gold-button {
   flex-flow: column;
   justify-content: center;
   padding-left: 6rem;
+}
+
+.block > * {
+  max-width: 600px;
 }
 
 .block h1 {
@@ -456,7 +481,8 @@ footer {
   }
 
   .block {
-    padding: 1rem 2rem;
+    padding: 1.5rem;
+    box-sizing: content-box;
   }
   
 
