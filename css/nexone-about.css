@@ -2,10 +2,8 @@
   /* About NexOne */
   header.aboutNexOne {
     background-image: url('../img/About/About_ImageExport_1.png');
-    background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center top;
-    background-size: cover;
     background-color: #376384;
     width: 100vw;
     height: 635px;
@@ -49,43 +47,22 @@
   /* About Awards */
 
   .aboutAwards {
+    color: white;
     background-image: url('../img/About/About_Awards_Img.png');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
     background-color: #376384;
-    width: 100vw;
-    height: 519px;
   }
 
-  .Awards {
-    margin: 226px 0 21px 115px;
-    font-family: Times;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
+  .aboutAwards h1 {
+    color: white ;
+    padding-bottom: 1rem;
   }
 
-  .AwardsList {
-    margin: 145px 0 0 0;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.4px;
-    text-align: left;
-    color: #ffffff;
+  .aboutAwards ul li {
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    font-weight: 400;
+    list-style: url('../img/About/AboutIcon_AwardsPoint.svg');
   }
-
-
 
   .AboutIcon_AwardsPoint {
     width: 15.4px;
@@ -95,171 +72,97 @@
     object-fit: contain;
   }
 
-  .About_ClientsPartners_Img {
-    background-image: url("../img/About/About_ClientsPartners_Img.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 721px;
+  .About_ClientsPartners_Img  {
+    background-image: url("../img/About/About_ClientsPartners_Img@2x.png");
   }
-        
-  .Clients-Partners {
-    margin-left: 80px;
-    margin-top: 193px;
-    font-family: Times;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
+
+  .About_ClientsPartners_Img .section-blocks {
+    height: 88vh;
+  }
+
+  .white-text h1, .white-text {
+    color: white;
+  }
+
+  p.italics {
+    font-style: italic;
+    font-weight: 300;
   }
 
   .white_dash {
     width: 73px;
     height: 4px;
     flex-grow: 0;
-    margin: 21px 80px;
+    margin: 21px 0 30px;
     object-fit: contain;
     background-color: #ffffff;
   }
 
-  .About_ClientsPartners_SubheaderText {
-    width: 541px;
-    height: 217px;
-    flex-grow: 0;
-    margin: 42px 80px 0;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.3px;
-    text-align: left;
-    color: #ffffff;
-  }
-
-  .CLIENTS-HEADING {
-    
-    margin: 96px 0 20px 0;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.3px;
-    text-align: left;
-    color: #c7b484;
-  }
-
-  .CLIENTS {
-    margin: 20px 0 0;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: italic;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    text-align: left;
-    color: #4f4f4f;
-  }
-
-  .PARTNERS-HEADING {
-    margin: 60px 0 20px 0;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.3px;
-    text-align: left;
-    color: #c7b484;
-  }
-
-  .PARTNERS {
-    margin: 20px 0 0;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: italic;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    text-align: left;
-    color: #4f4f4f;
-  }
-
   .About_Profile_img {
     background-image: url("../img/About/About_Profile_img.png");
-    background-position: center center;
+    padding: 8rem 0;
+  }
+
+
+.About_Profile_img ul {
+  list-style-type: none;
+  max-width: 100%;
+  padding-top: 1rem;
+}
+
+.About_Profile_img ul li {
+  display: flex;
+}
+
+.About_Profile_img ul li h6 {
+  color: var(--black);
+  width: 200px;
+}
+
+.About_Profile_img ul li p {
+  flex-shrink: 100;
+}
+
+.About_Profile_Logos_Grouped {
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  header.aboutNexOne {
+    padding: 0 1rem;
+  }
+  .About_ClientsPartners_Img  {
+    background-image: none;
+  }
+
+  .About_ClientsPartners_Img .section-blocks {
+    height: 100%;
+    padding: 0;
+  }
+  .About_ClientsPartners_Img .section-blocks > div{
+    padding: 5rem 1.5em;
     background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 694px;
   }
 
-  .Profile {
-    
-    margin: 169px 0 21px 115px;
-    font-family: Times;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4f4f4f;
+  .About_ClientsPartners_Img .section-blocks > div:first-of-type {
+    background-image: url("../img/About/Mobile/About_ClientsPartners_Gold_Mobilepng.png");
   }
 
-  .About-Line-15 {
-    width: 73px;
-    height: 4px;
-    flex-grow: 0;
-    margin: 21px 0 0 115px;
-    background-color: #c7b484;
+  .About_ClientsPartners_Img .section-blocks > div:last-of-type {
+    background-image: url("../img/About/Mobile/About_ClientsPartners_White_Mobile.png");
+  }
+  .About_Profile_img {
+    padding: 5rem 1rem;
   }
 
-  .Profile-Headings {
-    
-    margin: 16px 0 0 0;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.3px;
-    text-align: left;
-    color: #4f4f4f;
+  .About_Profile_img ul {
+    padding-left: 1.5rem;
+  }
+  .About_Profile_img ul li {
+    flex-flow: column;
   }
 
-  .Profile-Content {
-    margin: 16px 55px 0 0;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.3px;
-    text-align: left;
-    color: #4f4f4f;
+  .About_Profile_Logos_Grouped img {
+    width: 85vw;
   }
-
-  .About_Profile_Logos_Grouped {
-    background-image: url("../img/About/About_Profile_Logos_Grouped.png");
-    background-repeat: no-repeat;
-    width: 630px;
-    height: 78.6px;
-    flex-grow: 0;
-    margin: 75px 120px 0 0;
-    object-fit: contain;
-  }
+}
