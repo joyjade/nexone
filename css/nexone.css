@@ -28,6 +28,11 @@
   --black: #4F4F4F;
   --nexblue: #376384;
   --block-width: 600px;
+  --nav-height: 85px;
+}
+
+body {
+  color: var(--black);
 }
 
 h1, h2 {
@@ -98,6 +103,7 @@ ul {
   width: 73px;
   height: 4px;
   background-color: var(--gold);
+  margin: 1.5rem 0 2.5rem;
 }
 
 a.gold-button {
@@ -109,6 +115,10 @@ a.gold-button {
 a.gold-button:hover {
   color: var(--gold);
   background-color: white;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 }
 
@@ -131,8 +141,8 @@ a.gold-button:hover {
   justify-content: center;
 }
 
-.centered .block {
-  padding: unset;
+.section-blocks.centered h1, .section-blocks.centered p, .section-blocks.centered h2 {
+  text-align: center;
 }
 
 .block > * {
@@ -180,98 +190,38 @@ header.masthead {
   background-position: center top;
   background-size: cover;
   width: 100vw;
-  height: 885px;
-}
-
-.NexOne_Logo {
-  width: 200.3px;
-  height: 42px;
-  flex-grow: 0;
-  margin: 0 306.7px 0 0;
-  object-fit: contain;
-}
-
-  .Homepage_Hero_Img {
-  height: 885px; 
-  margin: 0 0 2px;
-  padding: 45px 50px 45px 70px;
-  object-fit: contain;
+  position: relative;
 }
 
 .home_banner h1 {
   color: white;
   margin-bottom: 3rem;
+  max-width: 1000px;
 }
 
-
+.home_banner {
+  padding-top: var(--nav-height);
+  height: 100vh;
+}
 
 .Homepage_Details_Text {
-  margin: 111.9px 0px 0px 0px;
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.36px;
+  position: absolute;
+  bottom: 3rem;
   text-align: center;
   color: #b3c5d2;
 }
 
 .homepage_whoweare {
-  padding: 10rem 0 12rem;
-  object-fit: contain;
   background-color: #f9f9f9;  
 }
 
-  .Homepage_WhoWeAre_Subheader {
-    width: 550px;
-    height: 85px;
-    margin: 30px 0 0;
-    font-size: 18px;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.36px;
-    text-align: center;
-    color: #4f4f4f;
-  }
-
-  .Who-We-Are {
-    
-    flex-grow: 0;
-    margin: 0 0 21px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4f4f4f;
-  }
-
-.homepage_whoweare .gold-bar {
-  margin: 0.5rem 0;
-}
-
 .services .gold-bar {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   margin-top: 21px;
 }
 
-.section {
-  padding: 8rem 0;
-}
-.section.services {
-  margin-left: 7rem;
-}
-
-.section.services h2 {
+.services h2 {
   color: var(--black);
-}
-
-.services .row {
-  height: 500px;
 }
 
 .services a.subheader {
@@ -280,108 +230,55 @@ header.masthead {
 
 .services .row .col-sm-4 {
   margin-right: 1rem;
-  max-width: 31%;
+  height: 500px;
   display: flex;
   align-items: end;
-  padding: 1.2rem;
+  padding: 1.5rem;
+  background-size: 100%;
+  background-position: center;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.services .row .col-sm-4:hover {
+  background-size: 105%;
+  transition: background-size 0.5s ease-in;
 }
 
 .Homepage_infotech_Img {
-  background-image: url("/img/Homepage/Homepage_infotech_Img.png");
+  background: url("/img/Homepage/Homepage_infotech_Img.png");
 }
 
 .Homepage_engineering_img {
-  background-image: url("/img/Homepage/Homepage_engineering_img.png");
+  background: url("/img/Homepage/Homepage_engineering_img.png");
 }
 
 .Homepage_logistics_img {
-  background-image: url("/img/Homepage/Homepage_LogTechSupport_Img.png");
+  background: url("/img/Homepage/Homepage_LogTechSupport_Img.png");
 }
 
+.contact-us a {
+  color: #4f4f4f;
+}
 
-  .Contact-Us-Text a {
-    text-decoration: none;
-    color: #4f4f4f;
-  }
+.Homepage_ClientsPartners_Img {
+  background-image: url("/img/Homepage/ClientsPartners_Tablet_Img.png");
+}
 
-  .Services a{
-    text-decoration: none;
-    color: #4f4f4f;
-  }
+.client-logos { 
+  width: 100%;
+}
 
-  .VIEW-SERVICES a{
-    text-decoration: none;
-    color: #4f4f4f;
-  }
+.Homepage_ClientsPartners_Img h1 {
+  color: white;
+}
 
-  .VIEW-SERVICES {
-    margin-left: 72px;
-    margin-top: 35px;
-    margin-bottom: 136px;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.9px;
-    text-align: left;
-    color: #4f4f4f;
-  }
+.Homepage_ContactUs_MapImage{
+  padding-right: 0;
+}
 
-  .Arrow-1 {
-    width: 27px;
-    height: 1px;
-    flex-grow: 0;
-    margin: 10.5px 0 9.5px 8px;
-    background-color: #4f4f4f;
-  }
-
-  .Homepage_ClientsPartners_Img {
-    background-image: url("../img/Homepage/Homepage_ClientsPartners_Export.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 681px;
-    object-fit: contain;
-  }
-
-  .Contact-Us {
-    margin-top: 199px;
-    margin-left: 80px;
-    margin-bottom: 16px;
-    font-family: Times;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4f4f4f;
-  }
-
-  .Homepage_ContactUs_Background {
-    width: 100vw;
-    height: 684px;
-    background-color: #ffffff;
-  }
-
-  .Line-16 {
-    width: 73px;
-    height: 4px;
-    margin-bottom: 80px;
-    margin-left: 80px;
-    background-color: #c7b484;
-  }
-
-  .Homepage_ContactUs_MapImage {
-    width: 831px;
-    height: 434px;
-    margin: 123px 0 0 0;
-    /* object-fit: contain; */
-  }
+.Homepage_ContactUs_MapImage img {
+  max-width: 100%;
+}
 
   .Contact-Us-bullets {
     margin-bottom: 15px;
@@ -474,14 +371,15 @@ footer {
 
 /* TABLET AND DESKTOP */
 @media screen and (min-width: 801px) {
+  /* NAV */
   .navbar {
-    height: 85px;
+    height: var(--nav-height);
   }
 
   .navbar li.nav-item {
     text-transform: uppercase;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 1px;
     font-size: 15px;
   }
@@ -503,8 +401,27 @@ footer {
     padding-right: 1rem;
   }
 
+  /* LAYOUT */
+
   .mobile-only {
     display: none;
+  }
+
+  .services {
+    margin-left: 7rem;
+    padding: 8rem 0;
+  }
+
+  .services .row .col-sm-4 {
+    max-width: 31%;
+  }
+
+  .client-logos {
+    padding: 7rem 3rem;
+  }
+
+  .centered .block {
+    padding: unset;
   }
 
   footer {
@@ -516,10 +433,14 @@ footer {
 
 @media screen and (max-width: 800px) {
 
+  :root {
+    --nav-height: 72px;
+  }
+
   /* LAYOUT */
 
-  h1 {
-    font-size: 40px;
+  h1, h2 {
+    font-size: 32px;
   }
 
   .hide-for-mobile {
@@ -527,15 +448,15 @@ footer {
   }
 
   .section-blocks {
-    padding: 4rem 0;
+    padding: 6rem 0;
     flex-flow: column;
     height: 100%;
   }
 
   .block {
     padding: 1.5rem;
-    box-sizing: content-box;
-    width: 100vw;
+    box-sizing: border-box;
+    width: 100%;
   }
 
   .mobile-reverse {
@@ -546,7 +467,7 @@ footer {
 
   .navbar-collapse {
     position: fixed;
-    top: 72px;
+    top: var(--nav-height);
     left: 0;
   }
 
@@ -587,6 +508,32 @@ footer {
     font-size: 40px;
     font-weight: 700;
     line-height: 1;
+  }
+
+  /* HOME */
+  .services {
+    padding: 6rem 1.5rem;
+  }
+
+  .services .row {
+    flex-flow: column;
+  }
+
+  .services .row .col-sm-4 {
+    margin-bottom: 1rem;
+    height: 300px;
+  }
+
+  .Homepage_ClientsPartners_Img {
+    background-position: left;
+  }
+
+  .Homepage_ContactUs_MapImage {
+    padding: 0;
+  }
+
+  .contact-us .section-blocks {
+    padding-bottom: 0;
   }
   
 

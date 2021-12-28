@@ -1,11 +1,7 @@
 header.contract-vehicle-head {
     background-image: url("../img/Contract_Vehicles/ContractVehicles.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
     background-position: center top;
-    background-size: cover;
-    width: 100vw;
-    margin-top: 135px;
+    margin-top: var(--nav-height);
   }
 
 .contract-vehicle-head .gold-bar {

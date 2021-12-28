@@ -18,7 +18,7 @@ header.serviceshead {
 
 .serviceshead .icons {
   justify-content: center;
-  padding-top: 4rem;
+  padding: 3rem 0 10rem;
 }
 
 .icons img {
@@ -209,7 +209,7 @@ h1 {
   }
 
 @media screen and (max-width: 800px) {
-  .icons {
+  .serviceshead .icons {
     padding-bottom: 6rem;
   }
   .icons h5 {
