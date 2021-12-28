@@ -5,12 +5,16 @@ header.contacthead {
   background-position: center top;
   background-size: cover;
   width: 100vw;
-  margin-top: 135px;
+  margin-top: var(--nav-height);
 }
 
 @media screen and (max-width: 800px) {
   .contacthead .section-blocks {
     padding-bottom: 0;
+  }
+
+  .contact-us .gold-bar {
+    margin: 1.5rem 0 2rem;
   }
 
   .Homepage_ContactUs_MapImage {
