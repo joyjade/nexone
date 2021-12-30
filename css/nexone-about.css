@@ -109,6 +109,14 @@
     margin-top: 75px;
   }
 
+  .aboutAwards h1 {
+    padding-bottom: 0;
+  }
+
+  .aboutAwards .gold-bar, .About_Profile_img .gold-bar {
+    margin-bottom: 0;
+  }
+
   .About_ClientsPartners_Img  {
     background-image: none;
   }
